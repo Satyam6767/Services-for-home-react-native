@@ -17,9 +17,9 @@ export default function BusinessDetailsScreen() {
         // console.log(param?.business)
     }, [param]);
 
-    const handleSendMessage = () => {
-        Linking.openURL(`mailto:${business.email}?subject=Message%20from%20App`);
-    };
+    // const handleSendMessage = () => {
+    //     Linking.openURL(`mailto:${business.email}?subject=Message%20from%20App`);
+    // };
 
     return (
         <View style={styles.container}>

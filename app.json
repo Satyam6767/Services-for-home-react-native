@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "services-for-home",
-    "slug": "services-for-home",
+    "name": "homecare",
+    "slug": "homecare",
+    "scheme": "homecare",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -10,6 +11,9 @@
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/7ea437e2-c677-433c-9c2b-5160da0e811a"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -21,10 +25,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.satyamkumar6767.HomeCare"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7ea437e2-c677-433c-9c2b-5160da0e811a"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
